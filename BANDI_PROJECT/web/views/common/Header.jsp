@@ -11,13 +11,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gaegu">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gamja Flower">
 	
-	<%
-		String typeByHeader = "ThrowType";
-		String typeHanStartJSP = "HanStar.jsp";
-		
-		String searchJSP = "hk.jsp";
-	%>
-	
 	<% 
 		User user = (User)session.getAttribute("user");
 	%>
